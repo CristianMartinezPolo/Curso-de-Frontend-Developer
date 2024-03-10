@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: lime;
+        }
+        div > div {
+            background: grey;
+        }
+        .es {
+            background: red;
+        }
+        div + section{
+            background: palegoldenrod;
+        }
+        div ~ p{
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe numquam quod quaerat consectetur dolorem earum fugiat repudiandae vero accusantium exercitationem. Sunt saepe quod deleniti, animi libero in voluptatum ipsum laudantium.</p>
+        <p>Otro</p>
+    </div>
+    <p>afuera</p>
+
+    <div>
+        <div>
+            <p>Platzi</p>
+            <div class="es">Es</div>
+        </div>
+    </div>
+    <p>Clase de selectores</p>
+    <section>
+        Esta es una nueva sección
+    </section>
+    <section>
+        Esta es otra sección
+    </section>
+</body>
+</html>
